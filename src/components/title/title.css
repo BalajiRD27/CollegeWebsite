@@ -1,0 +1,9 @@
+.title{
+    text-align: center;
+    margin:60px 0 20px;
+    text-transform: uppercase;
+}
+.title p{
+    text-transform: none;
+    font-size: 25px;
+}

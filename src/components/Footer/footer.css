@@ -1,0 +1,18 @@
+.footer{
+    margin:5px auto;
+    padding:8px 15px;
+    border-top: 1px solid #2b1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+@media (max-width:800px){
+    .footer{
+        font-size: 12px;
+    }
+}

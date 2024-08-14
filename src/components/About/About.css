@@ -1,0 +1,60 @@
+.about{
+    margin:100px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.left-about{
+    flex-basis: 40%;
+    position: relative;
+}
+.right-about{
+    flex-basis: 56%;
+}
+
+.about-img{
+    border-radius: 10px;
+    width: 100%;
+}
+.playicon{
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.playicon:hover{
+   width: 60px;
+}
+
+.right-about h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(16, 16, 61);
+}
+
+.right-about h2{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.right-about p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:900px){
+    .about{
+    flex-direction: column
+    }
+    .right-about{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+    .left-about{
+        flex-basis: 100%;
+        order: 2;
+    }
+}
